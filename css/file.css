@@ -1,0 +1,157 @@
+/* 导航 */
+#nav li:last-child a{
+    color: #282828;
+    font-size: 20px;
+}
+#nav li:nth-child(2) a{
+    color: #d90000;
+}
+/* 轮播 */
+#banner{
+    height: 500px;
+    overflow: hidden;
+    background: url(../imges/图层-3.jpg) no-repeat center;
+}
+#banner .bg{
+    height: 500px;
+    position: relative;
+    background-color: #282828;
+    opacity: 0.9;
+}
+#banner h1{
+    color: #fff;
+    font-size: 100px;
+    font-weight: bold;
+    top: 190px;
+    left: 50%;
+    margin-left: -336px;
+    position: absolute;
+}
+#banner h2{
+    color: #fff;
+    font-size: 38px;
+    bottom: 150px;
+    left: 50%;
+    margin-left: -326px;
+    position: absolute;
+}
+#banner ul{
+    width: 120px;
+    height: 12px;
+    bottom: 18px;
+    left: 50%;
+    margin-left: -60px;
+    position: absolute;
+    float: left;
+}
+#banner ul li{
+    width: 12px;
+    height: 12px;
+    float: left;
+    background: #fff;
+    margin-left: 374px;
+    border-radius: 7px;
+}
+#banner ul li:nth-child(2){
+    background: #da0000;
+}
+#banner .about{
+    width: 100px;
+    height: 250px;
+    left: 50%;
+    text-align: center;
+    top:0;
+    margin-left: -4px;
+    position: absolute;
+}
+#banner .about li{
+    width: 100px;
+    height: 50px;
+    border-top: 1px solid #d90000;
+    border-radius: 0;
+    line-height: 50px;
+}
+#banner .about a{
+    font-size: 20px;
+    color: #333;
+}
+#banner ul li:nth-child(1){
+    background: #da0000;
+}
+#banner ul li:nth-child(2){
+    background: #fff;
+}
+/* 版心 */
+.container_file{
+    width: 1180px;
+    height: 782px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+/* 文件 */
+#file{
+    height: 782px;
+    background-color: #f6f6f6;
+}
+#file ul{
+    text-align: left;
+    float: left;
+}
+#file ul:first-child{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+#file ul:nth-child(2){
+    margin-left: 100px;
+    margin-top: 40px;
+}
+#file ul:nth-child(3){
+    margin-left: 118px;
+    margin-top: 40px;
+}
+#file ul:nth-child(4){
+    margin-left: 118px;
+    margin-top: 40px;
+}
+#file ul:nth-child(5){
+    margin-left: 80px;
+    margin-top: 40px;
+}
+#file ul li{
+    margin-bottom: 40px;
+    font-size: 14px;
+	color: #333333;
+}
+#file .first{
+    margin-bottom: 25px;
+    font-size: 14px;
+    color: #666;
+}
+#file .bottom{
+    width: 400px;
+    height: 50px;
+    margin-left: 485px;
+    float: left;
+}
+#file .bottom a{
+    width: 20px;
+    height: 20px;
+    display:block;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 40px;
+	color: #333333;
+    float: left;
+    text-align: center;
+}
+#file .bottom .lef{
+    width: 12px;
+    height: 30px;
+	color: #d90000;
+}
+#file .bottom .first{
+    background-color: #d90000;
+    border-radius: 10px;
+    color: #fefefe;
+}

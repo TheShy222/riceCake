@@ -1,0 +1,318 @@
+/* 导航 */
+#nav li:last-child a{
+    color: #282828;
+    font-size: 20px;
+}
+#nav li:nth-child(5) a{
+    color: #d90000;
+}
+/* 轮播 */
+#banner{
+    height: 500px;
+    overflow: hidden;
+    background: url(../imges/图层-3.jpg) no-repeat center;
+}
+#banner .bg{
+    height: 500px;
+    position: relative;
+    background-color: #282828;
+    opacity: 0.9;
+}
+#banner h1{
+    color: #fff;
+    font-size: 100px;
+    font-weight: bold;
+    top: 190px;
+    left: 50%;
+    margin-left: -336px;
+    position: absolute;
+}
+#banner h2{
+    color: #fff;
+    font-size: 38px;
+    bottom: 150px;
+    left: 50%;
+    margin-left: -326px;
+    position: absolute;
+}
+#banner ul{
+    width: 120px;
+    height: 12px;
+    bottom: 18px;
+    left: 50%;
+    margin-left: -60px;
+    position: absolute;
+    float: left;
+}
+#banner ul li{
+    width: 12px;
+    height: 12px;
+    float: left;
+    background: #fff;
+    margin-left: 18px;
+    border-radius: 7px;
+}
+#banner ul li:nth-child(2){
+    background: #da0000;
+}
+#banner .about{
+    width: 100px;
+    height: 250px;
+    left: 50%;
+    text-align: center;
+    top:0;
+    margin-left: -4px;
+    position: absolute;
+}
+#banner .about li{
+    width: 100px;
+    height: 50px;
+    border-top: 1px solid #d90000;
+    border-radius: 0;
+    line-height: 50px;
+}
+#banner .about a{
+    font-size: 20px;
+    color: #333;
+}
+#banner ul li:nth-child(1){
+    background: #da0000;
+}
+#banner ul li:nth-child(2){
+    background: #fff;
+}
+/* 版心 */
+.container_about{
+    width: 780px;
+    margin: 0 auto;
+}
+/* 米国相关 */
+#related{
+    overflow: hidden;
+    background-color: #f6f6f6;
+}
+#related .runMG{
+    height: 390px;
+    overflow: hidden;
+    background-color: #fff;
+}
+#related .runMG .left{
+    width: 240px;
+    height: 180px;
+    margin-left: 40px;
+    margin-top: 116px;
+    float: left;
+}
+#related .runMG .left h2{
+    font-size: 20px;
+    color: #333;
+}
+#related .runMG .left h4{
+    font-size: 12px;
+    color: #999;
+    margin-top: 8px;
+}
+#related .runMG .left h3{
+    font-size: 16px;
+    color: #666;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#related .runMG li{
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 12px;
+}
+#related .runMG .right{
+    width: 370px;
+    height: 350px;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+}
+#related .quality{
+    height: 390px;
+    background: url(../imges/apple1.jpg);
+    overflow: hidden;
+}
+#related .quality div{
+    width: 350px;
+    height: 350px;
+    margin-left: 40px;
+    margin-top: 20px;
+    background-color: #282828;
+    overflow: hidden;
+    opacity: 0.7;
+}
+#related .quality h2{
+    margin-top: 38px;
+    margin-left: 230px;
+    font-size: 20px;
+    color: #dfdfdf;
+}
+#related .quality h4{
+    margin-top: 10px;
+    margin-left: 260px;
+    font-size: 12px;
+    color: #959595;
+    margin-bottom: 38px;
+}
+#related .quality p{
+    font-size: 16px;
+    color: #d1d1d1;
+    text-indent: 2em;
+    line-height: 24px;
+    margin-left: 40px;
+}
+#related .quality a{
+    display: block;
+    margin-top: 36px;
+    font-size: 16px;
+    margin-left: 40px;
+    color: #d1d1d1;
+}
+#related .culture{
+    height: 390px;
+    margin-top: 20px;
+}
+#related .culture img{
+    width: 292px;
+    height: 390px;
+    float: left;
+    margin-left: 20px;
+}
+#related .culture .right{
+    width: 394px;
+    height: 240px;
+    margin-left: 40px;
+    margin-top: 70px;
+    float: left;
+}
+#related .culture .right h2{
+    font-size: 20px;
+    color: #333;
+}
+#related .culture .right h4{
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+#related .culture .right p{
+    font-size: 16px;
+    line-height: 22px;
+    color: #666;
+}
+#related .culture .right a{
+    color: #666;
+    font-size: 16px;
+    display: block;
+    margin-top: 30px;
+}
+#related .compose{
+    height: 350px;
+    margin-top: 20px;
+}
+#related .compose .left{
+    width: 158px;
+    height: 254px;
+    margin-left: 24px;
+    float: left;
+}
+#related .compose h2{
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#related .compose h4{
+    font-size: 12px;
+    margin-bottom: 40px;
+    color: #999;
+}
+#related .compose p{
+    font-size: 16px;
+    color: #666;
+    text-indent: 2em;
+    line-height: 20px;
+}
+#related .compose a{
+    color: #666;
+    font-size: 16px;
+    display: block;
+    margin-top: 30px;
+}
+#related .compose img{
+    float: right;
+}
+#related .honor{
+    height: 360px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#related .honor .left{
+    width: 300px;
+    height: 360px;
+    background-color: #222;
+    float: left;
+}
+#related .honor .left h2{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #fefefe;
+}
+#related .honor .left h4{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 12px;
+    color: #b2b2b2;
+    margin-bottom: 40px;
+}
+#related .honor .left h5{
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: #e5e5e5;
+}
+#related .honor .left h3{
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-left: 28px;
+    color: #e5e5e5;
+}
+#related .honor .left a{
+    color: #e5e5e5;
+    font-size: 16px;
+    display: block;
+    margin-top: 28px;
+    margin-left: 20px;
+}
+#related .honor .right{
+    width: 470px;
+    height: 360px;
+    background:url(../imges/矩形-666.jpg);
+    float: right;
+}
+#related .honor .right h2{
+    margin-left: 196px;
+    margin-top: 39px;
+    color: #fefefe;
+    font-size: 20px;
+}
+#related .honor .right h4{
+    margin-left: 210px;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #b2b2b2;
+}
+#related .honor .right div{
+    width: 310px;
+    height: 180px;
+    margin-left: 88px;
+    margin-top: 40px;
+}
+#related .honor .right li{
+    color: #e5e5e5;
+    font-size: 16px;
+    margin-bottom: 28px;
+}

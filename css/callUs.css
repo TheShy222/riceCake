@@ -1,0 +1,230 @@
+/* 导航 */
+#nav li:last-child a{
+    color: #282828;
+    font-size: 20px;
+}
+#nav li:nth-child() a{
+    color: #d90000;
+}
+/* 轮播 */
+#banner{
+    height: 400px;
+    overflow: hidden;
+    background: url(../imges/轮播.png) no-repeat center;
+}
+#banner .bg{
+    height: 500px;
+    position: relative;
+}
+#banner h1{
+    color: #fff;
+    font-size: 100px;
+    font-weight: bold;
+    top: 190px;
+    left: 50%;
+    margin-left: -336px;
+    position: absolute;
+}
+#banner h2{
+    color: #fff;
+    font-size: 38px;
+    bottom: 150px;
+    left: 50%;
+    margin-left: -326px;
+    position: absolute;
+}
+#banner ul{
+    width: 120px;
+    height: 12px;
+    bottom: 18px;
+    left: 50%;
+    margin-left: -60px;
+    position: absolute;
+    float: left;
+}
+#banner ul li{
+    width: 12px;
+    height: 12px;
+    float: left;
+    background: #fff;
+    margin-left: 490px;
+    border-radius: 7px;
+}
+#banner ul li:nth-child(2){
+    background: #da0000;
+}
+#banner .about{
+    width: 100px;
+    height: 250px;
+    left: 50%;
+    text-align: center;
+    top:0;
+    margin-left: -4px;
+    position: absolute;
+}
+#banner .about li{
+    width: 100px;
+    height: 50px;
+    border-top: 1px solid #d90000;
+    border-radius: 0;
+    line-height: 50px;
+}
+#banner .about a{
+    font-size: 20px;
+    color: #333;
+}
+#banner ul li:nth-child(1){
+    background: #da0000;
+}
+#banner ul li:nth-child(2){
+    background: #fff;
+}
+/* 版心 */
+.container_about{
+    width: 780px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+/* 联系我们 */
+#callUs{
+    background-color: #f6f6f6;
+}
+#callUs .top{
+    overflow: hidden;
+}
+#callUs .im1{
+    margin-top: 20px;
+    float: left;
+}
+#callUs .left{
+    width: 300px;
+    height: 262px;
+    margin-top: 82px;
+    margin-left: 46px;
+    float: left;
+}
+#callUs .left h3{
+	font-size: 20px;
+	color: #333;
+    margin-bottom: 8px;
+}
+#callUs .left h4{
+    font-size: 10px;
+	color: #666;
+    margin-bottom: 40px;
+}
+#callUs .left li{
+    font-size: 14px;
+	line-height: 21px;
+	color: #999;
+}
+#callUs .left a{
+    width: 35px;
+	height: 35px;
+	background-color: #666;
+    border-radius: 16px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 38px;
+}
+#callUs .left img{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+#callUs .left .first{
+    background-color: #d90000;
+}
+#callUs .middle{
+    height: 385px;
+    margin-top: 20px;
+    background-color: #222;
+    overflow: hidden;
+}
+#callUs .info{
+    width: 420px;
+    height: 310px;
+    margin-top: 40px;
+    margin-left: 190px;
+}
+#callUs .info h3{
+    font-size: 20px;
+    color: #fff;
+    margin-left: 150px;
+    margin-bottom: 8px;
+}
+#callUs .info h4{
+    font-size: 10px;
+    color: #e5e5e5;
+    margin-left: 170px;
+    margin-bottom: 50px;
+}
+#callUs .info input{
+    color: #e5e5e5;
+    font-size: 16px;
+    width: 180px;
+    height: 26px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #e5e5e5;
+}
+#callUs .info input:first-child{
+    margin-right: 40px;
+}
+#callUs .info .last{
+    width: 410px;
+    height: 100px;
+    color: #e5e5e5;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #e5e5e5;
+}
+#callUs button{
+    width: 420px;
+	height: 44px;
+	background-color: #d90000;
+	border-radius: 4px;
+	font-size: 16px;
+	line-height: 21px;
+    margin-top: 30px;
+	color: #fff;
+    border: 1px solid transparent;
+}
+#callUs .bottom{
+    height: 240px;
+}
+#callUs .zuo{
+    width: 360px;
+    height: 120px;
+    margin-left: 110px;
+    margin-top: 66px;
+    float: left;
+}
+#callUs .zuo h3{
+    font-size: 20px;
+    color: #333;
+    margin-left: 140px;
+}
+#callUs .zuo h4{
+    font-size: 12px;
+    color: #666;
+    margin-top: 8px;
+    margin-left: 160px;
+}
+#callUs .zuo a{
+    font-size: 20px;
+    color: #666;
+    margin-left: 30px;
+    display: inline-block;
+    margin-top: 40px;
+}
+#callUs .zuo .soc{
+    margin-left: 60px;
+}
+#callUs .you{
+    margin-top: 20px;
+    float: right;
+}
